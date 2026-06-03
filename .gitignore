@@ -1,0 +1,20 @@
+# Model weights & large caches
+.cache/
+models/
+*.bin
+*.gguf
+*.pt
+*.pth
+
+# Virtual environments
+venv/
+.env
+
+# Python compilation files
+__pycache__/
+*.pyc
+
+# Local runtime inputs/outputs (to keep repo clean)
+test_output_*.jpg
+output_*.jpg
+
